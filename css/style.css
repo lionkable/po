@@ -1,0 +1,62 @@
+/* Apply a full-page background image */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('C:/Users/User/Desktop/pan/images/images.jpeg') no-repeat center center/cover;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-box {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  padding: 40px;
+  width: 300px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+.textbox {
+  margin-bottom: 20px;
+}
+
+.textbox input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+}
+
+.textbox input:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
